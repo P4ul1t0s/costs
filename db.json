@@ -18,8 +18,23 @@
         "id": "2",
         "name": "Desenvolvimento"
       },
-      "cost": 0,
-      "services": [],
+      "cost": 300,
+      "services": [
+        {
+          "cost": "100",
+          "id": "7871544d-de93-482a-ac87-fbd0ecb12eba"
+        },
+        {
+          "cost": "100",
+          "id": "9e7750e8-f761-4ee5-8a90-2a81f2941fcd",
+          "name": "AAA"
+        },
+        {
+          "cost": "100",
+          "id": "9fce5b07-544c-43fc-b877-eb830eb5725d",
+          "name": "AAA"
+        }
+      ],
       "id": 2
     },
     {

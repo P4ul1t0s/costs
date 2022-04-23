@@ -20,7 +20,7 @@
 }
 
 .details_container,
-.details_form_container{
+.service_form_container{
     border-bottom: 1px solid #7A7A7A;
     margin-bottom: 1.2em;
     padding-bottom: 1.2em;
@@ -47,4 +47,8 @@
 
 .project_info{
     width: 100%;
+}
+
+.project_info button{
+    border-radius: 5px;
 }

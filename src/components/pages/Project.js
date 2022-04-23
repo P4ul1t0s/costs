@@ -10,6 +10,7 @@ function Project(){
     const {id} = useParams()
     const [project, setProject] = useState([])
     const [showProjectForm, setShowProjectForm] = useState(false)
+    const [showServiceForm, setShowServiceForm] = useState(false)
     const [message, setMessage] = useState()
     const [type, setType] = useState()
 
@@ -55,6 +56,10 @@ function Project(){
         setShowProjectForm(!showProjectForm)
     }
 
+    function toggleServiceForm(){
+        setShowServiceForm(!showServiceForm)
+    }
+
     return(
         <>
             {project.name ? (
@@ -63,7 +68,9 @@ function Project(){
                         {message && <Message type={type} msg={message}/>}
                         <div className={styles.details_container}>
                             <h1>Projeto: {project.name}</h1>
-                            <button className={styles.btn} onClick={toggleProjectForm}>{!showProjectForm ? 'Editar Projeto' : 'Fechar'}</button>
+                            <button className={styles.btn} onClick={toggleProjectForm}>
+                                {!showProjectForm ? 'Editar Projeto' : 'Fechar'}
+                            </button>
                             {!showProjectForm ? (
                                 <div className={styles.project_info}>
                                     <p><span>Categoria: </span>{project.category.name}</p>
@@ -76,6 +83,19 @@ function Project(){
                                 </div>
                             )}
                         </div>
+                        <div className={styles.service_form_container}>
+                            <h2>Adicione um Serviço:</h2>
+                            <button className={styles.btn} onClick={toggleServiceForm}>
+                                {!showServiceForm ? 'Adicionar Serviço' : 'Fechar'}
+                            </button>
+                            <div className={styles.project_info}>
+                                {showServiceForm && <div>Formulário do serviço</div>}
+                            </div>
+                        </div>
+                        <h2>Serviços</h2>
+                        <Container customClass="start">
+                            <p>Itens de serviços</p>
+                        </Container>
                     </Container>
                 </div>
             ) : (

@@ -1,95 +1,15 @@
 {
   "projects": [
     {
-      "name": "Teste Alterado",
-      "budget": "9000",
-      "category": {
-        "id": "1",
-        "name": "Infra"
-      },
-      "cost": 1600,
-      "services": [
-        {
-          "name": "Serviço teste 01",
-          "cost": "300",
-          "description": "Primeiro serviço de teste",
-          "id": "a42cb948-f332-4f8a-b7ea-3048dee6d773"
-        },
-        {
-          "name": "Serviço teste 02",
-          "cost": "300",
-          "description": "Segundo serviço de teste",
-          "id": "100b626c-c717-47cf-bccc-22de126c0c1e"
-        },
-        {
-          "name": "Teste 03",
-          "cost": "1000",
-          "description": "Terceiro serviço de teste",
-          "id": "0f0714c3-fb63-455b-8f9b-8bcaf77e44d4"
-        }
-      ],
-      "id": 1
-    },
-    {
       "name": "Teste",
-      "budget": "9000",
+      "budget": "10000",
       "category": {
         "id": "2",
         "name": "Desenvolvimento"
       },
-      "cost": 300,
-      "services": [
-        {
-          "cost": "100",
-          "id": "7871544d-de93-482a-ac87-fbd0ecb12eba"
-        },
-        {
-          "cost": "100",
-          "id": "9e7750e8-f761-4ee5-8a90-2a81f2941fcd",
-          "name": "AAA"
-        },
-        {
-          "cost": "100",
-          "id": "9fce5b07-544c-43fc-b877-eb830eb5725d",
-          "name": "AAA"
-        }
-      ],
-      "id": 2
-    },
-    {
-      "name": "Teste",
-      "budget": "9000",
-      "category": {
-        "id": "3",
-        "name": "Design"
-      },
       "cost": 0,
       "services": [],
-      "id": 3
-    },
-    {
-      "name": "Teste",
-      "budget": "9000",
-      "category": {
-        "id": "4",
-        "name": "Planejamento"
-      },
-      "cost": 1224,
-      "services": [
-        {
-          "name": "AAAAAAAAAAA",
-          "cost": "1212",
-          "description": "Primeiro serviço de teste",
-          "id": "0d1c368f-477a-428d-9ed3-804a916fa7df"
-        },
-        {
-          "name": "AAA",
-          "cost": "12",
-          "description": "ASDSAD",
-          "id": "01951874-802b-42eb-9e50-400ad53e3982"
-        }
-      ],
-      "id": 4
+      "id": 1
     }
   ],
   "categories": [
